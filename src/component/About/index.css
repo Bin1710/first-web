@@ -1,0 +1,15 @@
+/* *{
+  max-width: 1366px;
+} */
+
+.cards{
+  display: flex;  
+  flex-wrap: wrap;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+
+.left{
+  padding-bottom: 30px;
+}

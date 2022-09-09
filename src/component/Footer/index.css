@@ -1,0 +1,132 @@
+.backgroundcontainer {
+  width: 100%;
+  background-color: #002b60;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.text {
+  color: #ffffff;
+  font-family: "ABeeZee";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gridview {
+  display: grid;
+  column-gap: 18.75rem;
+  /* this causing background-color not full screen*/
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 7.625rem;
+  padding-right: 7.625rem;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+  .gridview {
+    column-gap: 7rem;
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+  .firstcolumn {
+    padding: 0.5rem;
+  }
+  .secondcolumn {
+    margin: auto;
+  }
+  .gridview {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .gridview {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 1rem;
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.customimage {
+  width: 10.063rem;
+  height: 5.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.head {
+  font-family: "ABeeZee";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Be Vietnam";
+  color: #6c6c6c;
+  width: 21.938rem;
+  height: 2.188rem;
+  padding: 0.625rem;
+  margin: 0.813rem 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Be Vietnam";
+  background-color: #a26828;
+  border: none;
+  color: white;
+  width: 21.938rem;
+  padding: 0.5rem;
+  margin-top: 0.688rem;
+  border-radius: 3.34px;
+}
+
+.firstcolumn {
+  margin: auto;
+  text-align: left;
+}
+
+.secondcolumn {
+  margin: auto;
+}
+
+.validatetext {
+  font-size: 1rem;
+  color: #ff1d1d;
+}
+
+.textalign {
+  text-align: start;
+}
+
+.contact {
+  font-family: "Be Vietnam";
+  font-size: 1.25rem;
+  font-style: normal;
+}

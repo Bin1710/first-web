@@ -1,0 +1,35 @@
+.ct {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #8dc63f;
+  padding-bottom: 32px;
+  padding-top: 68px;
+}
+
+.card345 {
+  display: flex;
+  margin-right: 120px;
+  margin-left: 120px;
+  /* margin: auto; */
+  justify-content: center;
+}
+.card-first{
+    margin-right: 16px;
+    margin-bottom: 30px;
+}
+.card-third{
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+.card-second{
+    margin-right: 16px;
+}
+.card-fourth{
+    margin-left: 16px;
+}

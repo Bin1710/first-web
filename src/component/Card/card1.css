@@ -1,0 +1,42 @@
+.card123 {
+  width: 547px;
+  height: 132px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-left {
+  width: 194.56px;
+  height: 132px;
+}
+
+.card-date{
+
+/* Body/Regular/12 */
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+color: #9E9E9E;
+}
+
+.card-text{
+  /* Body/Bold/16 */
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-transform: uppercase;
+
+/* Neutral / 9 */
+color: #434343;
+}
